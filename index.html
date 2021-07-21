@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mixed Messages</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+</head>
+<body>
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a id="Mixed_messages_application_0"></a>Mixed messages application</h1>
+    <p class="no-box" data-line-start="2" data-line-end="3">Press the button below called <strong>‘Random question’</strong> to get different questions from the University Challenge card game:</p>
+    <br>
+
+    <a class="button" onclick="randomQuestion()" >Random question</a>
+    <p id= "randomQuestionText" class="has-line-data" data-line-start="5" data-line-end="6"><strong>"Question: ....?"</strong></p>
+    
+    <p class="no-box" data-line-start="5" data-line-end="6">Please press button below <strong>‘Answers’</strong> to see three possible answers to this question:</p>
+    <br>
+
+    <a class="button" onclick="randomAnswers()" >Random answers</a>
+    <p id= "randomAnswersText" class="has-line-data" data-line-start="5" data-line-end="6"><strong>"Answers: ....?"</strong></p>
+
+    <p class="no-box" data-line-start="8" data-line-end="9">Press button <strong>‘Correct Answer’</strong> to see if you guessed the right answer from this questions!</p>
+    <br>
+    
+    <a class="button" onclick="correctAnswer()" >Answer</a>
+    <p id= "correctAnswerText" class="has-line-data" data-line-start="8" data-line-end="9"><strong>"Correct answer: ...."</strong></p>
+
+    <script src="mixedMessages.js"></script>
+</body>
+</html>
